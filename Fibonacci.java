@@ -8,7 +8,7 @@
  * Fibonacci Sequence using the formula Xn = X(n-1) + X(n-2) 
  * 	when n > 2; otherwise Xn = 1
  */
-package chpt2_160120;
+package chpt2_160120.w20_ITC115;
 
 public class Fibonacci {
 
