@@ -1,6 +1,3 @@
-package conditionals;
-
-
 /* Method Season
  * 
  * Description: Method that takes 2 integers as parameters for month and day

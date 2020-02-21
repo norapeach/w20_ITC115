@@ -1,6 +1,10 @@
 # w20_ITC115
 First Java programs
 
+### 2/21/20 ReadBoyGirl
+(From Building Java Programs p439 ex 1)
+ReadBoyGirl.java contains a method that accepts a Scanner object as a parameter and reads input from a file containing a series of name/integer pairs starting with a boy name/number and the name/number pairs alternate between boy & girl. The method outputs the respective counts of boys and girls and the absolute difference between the boy numbers & girl numbers.
+
 ### 2/18/20 Season & CalcGPA
 (From Building Java Programs chpt 4 ex. 3 & 10)
 Season.java contains a method that is passed two integers (hard coded) for the month and day respectively and uses nested if/else statments to output the corresponsing season.

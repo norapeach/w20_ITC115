@@ -1,4 +1,3 @@
-package conditionals;
 
 /* Method printGPA
  * 

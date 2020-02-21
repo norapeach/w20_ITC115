@@ -1,5 +1,3 @@
-package conditionals;
-
 //*******************************************************************
 // class Replica --> method repl
 //
