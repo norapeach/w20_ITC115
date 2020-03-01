@@ -1,8 +1,13 @@
 # w20_ITC115
 First Java programs
 
+### 3/01 ch7_arrays: SortedArray & UniqueArray
+SortedArray.java tests the method isSorted() that accepts an array of real numbers as a parameter and outputs true if the arrat values are sorted (nondecreasing) in order, or false otherwise.
+UniqueArray.java tests a method called isUnique() that accepts an array of integers as a parameter and outputs a boolean value indicating whether or not the values in the array are unique (true if yes, otherwise false).
+
 ### 2/24 AntCraw & PowerOfTwo
-Midterm for ITC ITC115
+AntCraw.java is a simple program that simulates an ant trying to crawl up a building with a height of 6 steps. The ant has a 50/50 chance of slipping and falling back to bottom. The output is the number of attempts it took for the ant to reach the top
+PowerOfTwo.java Example of a method powOfTwo that takes an int n as a parameter and returns a boolean value based on if n is a power of 2. If yes, then the test returns true, otherwise false is returned. 
 
 ### 2/21/20 ReadBoyGirl
 (From Building Java Programs p439 ex 1)
