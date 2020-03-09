@@ -1,6 +1,9 @@
 # w20_ITC115
 First Java programs
 
+### 3/09 ch8 product_example: Product class
+ProductMain.java runs tests instantializing objects from the Product.java class and outputs the Product object data to the console, formatted with the Product.toString() method.
+
 ### 3/01 ch7_arrays: SortedArray & UniqueArray
 SortedArray.java tests the method isSorted() that accepts an array of real numbers as a parameter and outputs true if the arrat values are sorted (nondecreasing) in order, or false otherwise.
 UniqueArray.java tests a method called isUnique() that accepts an array of integers as a parameter and outputs a boolean value indicating whether or not the values in the array are unique (true if yes, otherwise false).
