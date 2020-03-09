@@ -1,4 +1,4 @@
-/* ProductMain.java
+/* ProductMain.java 
  * 
  * ITC 115  
  * 03.9.20
@@ -7,7 +7,8 @@
  * Assignment 9: Generic Product.java class
  * Description: This program runs tests on the Product.java class
  * 				outputting the generic Product instance information 
- * 				and total number of Product instances
+ * 				and total number of Product instances. The quantity is updated on
+ *				one instance (setStock) and that change is output (getTotalStock)
  */
  
 package product_example;
@@ -38,7 +39,8 @@ public class ProductMain {
 		System.out.println("\n" + p3);
 		
 		System.out.println("\nYour store contains " + Product.getNumProducts() + " types of products.");
-
+		p2.setStock(20);
+		System.out.println("Product: " + p2.getName() + " -> Updated stock quantity: " + p2.getTotalStock());
 	}
 
 }
