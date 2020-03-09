@@ -40,7 +40,27 @@ public class Product {
 	}
 	
 	///////// Instance Methods:
+	
 	///////// Accessor 'getter' methods:
+	public int getID() {
+		return this.id;
+	}
+	
+	public String getProdName() {
+		return this.name;
+	}
+	
+	public String getDescr() {
+		return this.description;
+	}
+	
+	public double getPrice() {
+		return this.price;
+	}
+	
+	public int getTotalStock() {
+		return this.totalStock;
+	}
 	
 	///////// Mutator 'setter' methods:
 	
