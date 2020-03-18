@@ -34,5 +34,11 @@ public class StudentAdvanceTicket extends AdvanceTicket {
 					changePrice(ADVPRICE / 2);	
 				}
 	}
+	
+	// override toString(); 
+		// return superclass' value + (ID required)
+		public String toString() {
+			return super.toString() + " (ID required)";
+		}
 
 }
