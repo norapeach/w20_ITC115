@@ -1,6 +1,11 @@
 # w20_ITC115
 First Java programs
 
+### 3/09 campusEventTicketing package: Inheritance & Abstract class
+Ticket.java represents an abstract class for a generic ticket that is implemented with the ticket subclasses WalkupTicket, AdvanceTicket with subclass StudentAdvanceTicket. 
+
+TicketingMain.java runs a simple test of the classes with polymorphic code that outputs the respective toString() calls to the console.
+
 ### 3/09 ch8 product_example: Product class
 ProductMain.java runs tests instantializing objects from the Product.java class and outputs the Product object data to the console, formatted with the Product.toString() method.
 
