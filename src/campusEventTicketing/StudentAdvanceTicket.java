@@ -36,9 +36,9 @@ public class StudentAdvanceTicket extends AdvanceTicket {
 	}
 	
 	// override toString(); 
-		// return superclass' value + (ID required)
-		public String toString() {
-			return super.toString() + " (ID required)";
-		}
+	// return superclass' value + (ID required)
+	public String toString() {
+		return super.toString() + " (ID required)";
+	}
 
 }
