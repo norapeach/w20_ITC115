@@ -1,7 +1,7 @@
 # w20_ITC115
 First Java programs
 
-### 3/09 campusEventTicketing package: Inheritance & Abstract class
+### 3/17 campusEventTicketing package: Inheritance & Abstract class
 Ticket.java represents an abstract class for a generic ticket that is implemented with the ticket subclasses WalkupTicket, AdvanceTicket with subclass StudentAdvanceTicket. 
 
 TicketingMain.java runs a simple test of the classes with polymorphic code that outputs the respective toString() calls to the console.
