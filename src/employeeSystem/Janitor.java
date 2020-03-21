@@ -6,7 +6,7 @@ package employeeSystem;
 /**
  * @author Nora P.
  * Description: a Janitor object "is-a"n Employee or represents an instance of Employee
- * 				uses & overrides instance methods to modify the subclass state
+ * 				uses & overrides instance methods with Janitor specific state values
  */
 
 public class Janitor extends Employee {

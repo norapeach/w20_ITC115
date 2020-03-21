@@ -8,7 +8,6 @@ package employeeSystem;
  * Description: a HarvardLawyer object represents an instance of a Lawyer, but also an instance
  * 				of Employee --> an example of multi-tiered inheritance hierarchy
  * 				uses & overrides instance methods to modify the subclass state and behavior
- *  20% more, 3 more days, pink pink pink pink
  */
 public class HarvardLawyer extends Lawyer {
 
