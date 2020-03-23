@@ -1,5 +1,8 @@
 # w20_ITC115
-First Java programs
+First Java programs∏
+
+### 3/23 ....System: WQ2020 final program example
+LibrarySystem: incomplete library system program
 
 ### 3/20 employeeSystem: Inheritance & Abstract class example
 The employeeSystem package represents a very simple employee structure, which utilizes an abstract class Employee thats modified by its subclasses for each additional employee to represent. EmployeeMain.java is the client code with basic tests to demonstrate encapsulation & polymorphism.
