@@ -11,31 +11,32 @@ package librarySystem;
 public class Magazine extends PrintMedia {
 	private int issueNum;
 
-	/** Constructs a magazine instance with the given
+	/**
 	 * @param itemID
 	 * @param title
 	 * @param year
 	 * @param pages
 	 * @param author
 	 * @param publisher
-	 * @param issueNum
 	 */
-	public Magazine(int itemID, String title, int year, int pages, 
-					String author, String publisher, int issueNum) {
+	public Magazine(int itemID, String title, int year, int pages, String author, String publisher) {
 		super(itemID, title, year, pages, author, publisher);
-		this.issueNum = issueNum;
+		this.issueNum = 0;
 	}
 
-	/** Constructs a magazine instance with fewer given
-	 * @param itemID
-	 * @param title
-	 * @param year
+	/**
+	 * @return the issueNum
 	 */
-	public Magazine(int itemID, String title, int year) {
-		super(itemID, title, year);
-		this.issueNum = 0;
-	} 
-	
+	public int getIssueNum() {
+		return issueNum;
+	}
+
+	/**
+	 * @param issueNum the issueNum to set
+	 */
+	public void setIssueNum(int issueNum) {
+		this.issueNum = issueNum;
+	}
 	
 	
 	

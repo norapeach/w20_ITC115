@@ -1,7 +1,10 @@
 # w20_ITC115
 First Java programs∏
 
-### 3/23 ....System: WQ2020 final program example
+### 3/25 librarySystem:
+1st attempt at refactoring librarySystem with client code in LibraryMain.java to add date functionality.
+
+### 3/23 librarySystem: WQ2020 final program example
 LibrarySystem: incomplete library system program
 
 ### 3/20 employeeSystem: Inheritance & Abstract class example

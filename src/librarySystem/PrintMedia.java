@@ -16,22 +16,8 @@ public abstract class PrintMedia extends LibraryItem {
 	private int pages;
 	private String author;
 	private String publisher; 
-	/**
-	 * Constructs a PrintMedia instance with the given
-	 * @param itemID
-	 * @param title
-	 * @param year
-	 * Auto-initializes other field values to their zero equivalent
-	 */
-	public PrintMedia(int itemID, String title, int year) {
-		super(itemID, title, year); // LibraryItem constructor
-		this.pages = 0;
-		this.author = "";
-		this.publisher = "";
-	
-	}
 
-	/** 2nd Constructor: constructs instance with all given
+	/**
 	 * @param itemID
 	 * @param title
 	 * @param year
@@ -39,9 +25,8 @@ public abstract class PrintMedia extends LibraryItem {
 	 * @param author
 	 * @param publisher
 	 */
-	public PrintMedia(int itemID, String title, int year, 
-			int pages, String author, String publisher) {
-		super(itemID);
+	public PrintMedia(int itemID, String title, int year, int pages, String author, String publisher) {
+		super(itemID, title, year);
 		this.pages = pages;
 		this.author = author;
 		this.publisher = publisher;

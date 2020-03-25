@@ -1,5 +1,5 @@
 /**
- * 
+ * Book.java
  */
 package librarySystem;
 
@@ -10,7 +10,8 @@ package librarySystem;
  */
 public class Book extends PrintMedia {
 
-	/** Constructs a book instance with the given
+	/**
+	 * Constructs a Book object with the given
 	 * @param itemID
 	 * @param title
 	 * @param year
@@ -20,21 +21,7 @@ public class Book extends PrintMedia {
 	 */
 	public Book(int itemID, String title, int year, int pages, String author, String publisher) {
 		super(itemID, title, year, pages, author, publisher);
-		
 	}
-
-	/** Constructs a book instance the the given
-	 * @param itemID
-	 * @param title
-	 * @param year
-	 * initializes pages, author and publisher instance values to zero equivalent
-	 */
-	public Book(int itemID, String title, int year) {
-		super(itemID, title, year); // PrintMedia constructor
-		
-	}
-	
-	
 	
 	
 	
